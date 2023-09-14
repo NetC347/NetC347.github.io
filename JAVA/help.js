@@ -3,7 +3,6 @@ function myClick() {
     var x = document.getElementById("warn");
 
     x.style.display = 'none';
-}
 
 
 if (x.style.display = 'flex') {
@@ -18,4 +17,4 @@ if (x.style.display = 'flex') {
         z.style.display = 'flex';
         }
 
-        
+    }
