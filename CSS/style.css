@@ -574,7 +574,7 @@ li {
 }
 
 .indexnote_pad {
-    display: flex;
+    display: none;
     flex-flow: column wrap;
     background-color: #BFBFBF;
     max-width: 400px;
@@ -593,7 +593,7 @@ li {
 }
 
 .links_pad {
-    display: flex;
+    display: none;
     flex-flow: column wrap;
     background-color: #BFBFBF;
     max-width: 295px;

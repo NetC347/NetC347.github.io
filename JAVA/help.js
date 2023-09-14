@@ -15,6 +15,14 @@ function getTime() {
 
 function myClick() {
 
+    var x = document.getElementById("warn");
+    var y = document.getElementById("links");
+    var z = document.getElementById("pad");
+
+    x.style.display = 'none';
+    x.style.display = 'flex';
+    x.style.display = 'flex';
+    
 
 }
 
