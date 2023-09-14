@@ -18,13 +18,13 @@ function myClick() {
     var main1 = document.getElementById("main1");
     var main1 = document.getElementById("main2");
 
-    if (link.style.display == 'none'); {
-        main1.style.display = 'block';
-        main1.style.display = 'block';
+    if (link.style.display == "none") {
+        main1.style.display = "flex";
+        main1.style.display = "flex";
     }
-
-     else {
-        main1.style.display = 'none';
-        main1.style.display = 'none';
+    else {
+        link.style.display = "flex";
+        main1.style.display = "none";
+        main1.style.display = "none";
     }
 }
