@@ -13,9 +13,18 @@ function getTime() {
     document.getElementById('time').innerText = realtime;
 }
 
-    function myClick() {
-        var warn = document.getElementById("myDIV");
-        var main1 = document.getElementById("main1").style.visibility = 'hidden';
-        var main2 = document.getElementById("main2").style.visibility = 'hidden';
+function myClick() {
+    var link = document.getElementById("myDIV");
+    var main1 = document.getElementById("main1");
+    var main1 = document.getElementById("main2");
 
+    if (link.style.display == 'none'); {
+        main1.style.display = 'block';
+        main1.style.display = 'block';
     }
+
+     else {
+        main1.style.display = 'none';
+        main1.style.display = 'none';
+    }
+}
