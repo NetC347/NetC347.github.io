@@ -18,12 +18,16 @@ var x = document.getElementById("warn");
     var z = document.getElementById("pad");
 
 function myClick() {
+    var x = document.getElementById("warn");
 
     x.style.display = 'none';
 }
 
 
 if (x.style.display = 'flex') {
+    var y = document.getElementById("links");
+    var z = document.getElementById("pad");
+
     y.style.display = 'none';
     z.style.display = 'none';
     }
