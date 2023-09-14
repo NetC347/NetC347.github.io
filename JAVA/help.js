@@ -17,3 +17,5 @@ if (x.style.display = 'flex') {
         y.style.display = 'flex';
         z.style.display = 'flex';
         }
+
+        
