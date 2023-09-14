@@ -13,15 +13,14 @@ function getTime() {
     document.getElementById('time').innerText = realtime;
 }
 
-var warn = document.getElementById('myDIV');
-var link = document.getElementById('main1');
-var pad = document.getElementById('main2');
+function myClick() {
 
-link.setAttribute('class', 'hidden');
-pad.setAttribute('class', 'hidden');
+        var x = document.getElementById("myDIV");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+        
+      }
 
-warn.onclick = function() {
-    warn.setAttribute('class', 'hidden');
-    link.setAttribute('class', 'visible');
-    pad.setAttribute('class', 'visible');
-}
