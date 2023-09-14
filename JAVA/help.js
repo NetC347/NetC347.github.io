@@ -18,9 +18,14 @@ function myClick() {
         var warn = document.getElementById("myDIV");
         var main1 = document.getElementById("main1");
         var main2 = document.getElementById("main2");
-    
-        when (warn.style.display === "none") {
-            main1.style.display = "block";
-            main2.style.display = "block";
-          }
+
+        if (warn.style.visibility === "visible") {
+            main1.style.visibility = "hidden";
+            main2.style.visibility = "hidden";
         }
+        else
+            (warn.style.visibility === "hidden") {
+            main1.style.visibility = "visible";
+            main2.style.visibility = "visible";
+        }
+    }
