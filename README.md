@@ -8,6 +8,8 @@ TO DO:
 
 music:
 
+warning pops up only once per session
+
 movies:
 Avengers
 Gforce
