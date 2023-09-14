@@ -20,8 +20,10 @@ function myClick() {
     var z = document.getElementById("pad");
 
     x.style.display = 'none';
+}
 
-    if (x.style.display = 'flex') {
+
+if (x.style.display = 'flex') {
     y.style.display = 'none';
     z.style.display = 'none';
     }
@@ -29,6 +31,3 @@ function myClick() {
         y.style.display = 'flex';
         z.style.display = 'flex';
         }
-
-}
-
