@@ -14,17 +14,15 @@ function getTime() {
 }
 
 function myClick() {
-    var link = document.getElementById("myDIV");
-    var main1 = document.getElementById("main1");
-    var main1 = document.getElementById("main2");
+    var warn = document.getElementById("myDIV");
+    var pad = document.getElementById("main1");
+    var link = document.getElementById("main2");
 
-    if (link.style.display == "none") {
-        main1.style.display = "flex";
-        main1.style.display = "flex";
+    if (warn.style.display == "none") {
+        pad.style.display = "flex";
+        link.style.display = "flex";
     }
     else {
-        link.style.display = "flex";
-        main1.style.display = "none";
-        main1.style.display = "none";
+        warn.style.display = "flex";
     }
 }
