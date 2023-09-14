@@ -13,11 +13,11 @@ function getTime() {
     document.getElementById('time').innerText = realtime;
 }
 
-function myClick() {
-
-    var x = document.getElementById("warn");
+var x = document.getElementById("warn");
     var y = document.getElementById("links");
     var z = document.getElementById("pad");
+
+function myClick() {
 
     x.style.display = 'none';
 }
