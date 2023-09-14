@@ -18,7 +18,7 @@ function myClick() {
     var x = document.getElementById("myDIV");
     var y = document.getElementById("main1");
     var z = document.getElementById("main2");
-    if (x.style.display === "none") {
+    if (x.style.display == "none") {
         x.style.display = "flex";
         y.style.display = "none";
         z.style.display = "none";
