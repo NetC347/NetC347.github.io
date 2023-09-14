@@ -17,6 +17,9 @@ var warn = document.getElementById('myDIV');
 var link = document.getElementById('main1');
 var pad = document.getElementById('main2');
 
+link.setAttribute('class', 'hidden');
+pad.setAttribute('class', 'hidden');
+
 warn.onclick = function() {
     warn.setAttribute('class', 'hidden');
     link.setAttribute('class', 'visible');
