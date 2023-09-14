@@ -16,10 +16,15 @@ function getTime() {
 function myClick() {
 
         var x = document.getElementById("myDIV");
-        if (x.style.display === "none") {
-          x.style.display = "flex";
+        var y = document.getElementById("main1");
+        var z = document.getElementById("main2");
+        if (x.style.display === "flex") {
+          y.style.display = "none";
+          z.style.display = "none";
         } else {
           x.style.display = "none";
+          y.style.display = "flex";
+          z.style.display = "flex";
         }
 
       }
