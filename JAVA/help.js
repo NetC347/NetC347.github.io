@@ -13,18 +13,12 @@ function getTime() {
     document.getElementById('time').innerText = realtime;
 }
 
-function myClick() {
-    var warn = document.getElementById("myDIV");
-    hide(document.getElementById("main1"));
-    hide(document.getElementById("main2"));
+var warn = document.getElementById('myDIV');
+var link = document.getElementById('main1');
+var pad = document.getElementById('main2');
 
-
-
-    if (warn.style.display == "none") {
-        pad.style.display = "block";
-        link.style.display = "block";
-    }
-    else {
-        warn.style.display = "block";
-    }
+warn.onclick = function() {
+    warn.setAttribute('class', 'hidden');
+    link.setAttribute('class', 'visible');
+    pad.setAttribute('class', 'visible');
 }

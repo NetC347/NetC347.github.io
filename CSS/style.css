@@ -884,10 +884,6 @@ body *::-webkit-scrollbar-corner {
     background: #BFBFBF;
 }
 
-.warnicon-exit.clicked {
-    .warnicon-exit{ display:none;}
-}
-
 /* show it on devices with min of */
 @media (max-width: 500px) {
     .hide1 {
