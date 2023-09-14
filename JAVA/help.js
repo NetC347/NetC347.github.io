@@ -13,7 +13,6 @@ function getTime() {
     document.getElementById('time').innerText = realtime;
 }
 
-function myClick() {
     function myClick() {
         var warn = document.getElementById("myDIV");
         var main1 = document.getElementById("main1");
