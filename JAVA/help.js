@@ -14,6 +14,13 @@ function getTime() {
 }
 
 function myClick() {
-    var link = document.getElementById("myDIV");
-    link.style.display = 'none';
-}
+    function myClick() {
+        var warn = document.getElementById("myDIV");
+        var main1 = document.getElementById("main1");
+        var main2 = document.getElementById("main2");
+    
+        when (warn.style.display === "none") {
+            main1.style.display = "block";
+            main2.style.display = "block";
+          }
+        }
