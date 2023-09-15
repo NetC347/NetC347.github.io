@@ -31,3 +31,24 @@ function myClick() {
     }
 
 }
+
+function ran_col() { //function name
+    var color; // hexadecimal starting symbol
+    var letters = ['01007a','7a003c','797a00','007a3e','00797a']; //Set your colors here
+
+    var x= document.getElementsByClassName("barc");
+    var i;
+    for(i=0;i<x.length;i++)
+    {
+        color="#";
+        color += letters[Math.floor(Math.random() * letters.length)];
+        x[i].style.backgroundColor = color;
+    }
+    document.getElementById("page").style.display = "block";
+}
+
+function ran_coloff() {
+
+
+    
+}
