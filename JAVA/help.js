@@ -8,16 +8,17 @@ var c = document.getElementById("bg3");
 var d = document.getElementById("bg4");
 var e = document.getElementById("bg5");
 
+
 if (document.cookie == '' || document.cookie == 'cookie=appear') {
     popup.style.display = "flex";
-} 
+}
 
 function myClick() {
 
     popup.style.display = 'none';
 
 
-    if ( popup.style.display = "none"); {
+    if (popup.style.display = "none"); {
         y.style.display = 'flex';
         z.style.display = 'flex';
 
@@ -32,23 +33,49 @@ function myClick() {
 
 }
 
-function ran_col() { //function name
-    var color; // hexadecimal starting symbol
-    var letters = ['01007a','7a003c','797a00','007a3e','00797a']; //Set your colors here
+$(document).ready(function () {
+    $("#page1").click(function () {
+        $("#albumgrid1").css('display', 'grid');
+        $("#albumgrid2").hide();
+        $("#albumgrid3").hide();
+        $("#albumgrid4").hide();
+        console.log("p1");
+    })
 
-    var x= document.getElementsByClassName("barc");
-    var i;
-    for(i=0;i<x.length;i++)
-    {
-        color="#";
-        color += letters[Math.floor(Math.random() * letters.length)];
-        x[i].style.backgroundColor = color;
-    }
-    document.getElementById("page").style.display = "block";
-}
+    $("#page2").click(function () {
+        $("#albumgrid1").hide();
+        $("#albumgrid2").css('display', 'grid');
+        $("#albumgrid3").hide();
+        $("#albumgrid4").hide();
+    })
 
-function ran_coloff() {
+    $("#page3").click(function () {
+        $("#albumgrid1").hide();
+        $("#albumgrid2").hide();
+        $("#albumgrid3").css('display', 'grid');
+        $("#albumgrid4").hide();
+    })
 
+    $("#page4").click(function () {
+        $("#albumgrid1").hide();
+        $("#albumgrid2").hide();
+        $("#albumgrid3").hide();
+        $("#albumgrid4").css('display', 'grid');
+    })
+});
 
+$(document).ready(function () {
+    $("#aesth1").click(function () {
+        $("#aesthgrid1").css('display', 'grid');
+        $("#aesthgrid2").hide();
     
-}
+        console.log("p1");
+    })
+
+    $("#aesth2").click(function () {
+        $("#aesthgrid1").hide();
+        $("#aesthgrid2").css('display', 'grid');
+        
+    })
+
+});
